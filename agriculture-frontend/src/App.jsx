@@ -8,6 +8,7 @@ import Register from './pages/Register';
 import Home from './pages/Home';
 import Cart from './pages/Cart';
 import FarmerDashboard from './pages/FarmerDashboard';
+import Footer from './components/Footer';
 
 // Protected Route Component
 const ProtectedRoute = ({ children, farmerOnly = false }) => {
@@ -57,9 +58,7 @@ function App() {
                 />
               </Routes>
             </main>
-            <footer className="bg-white border-t border-gray-100 py-8 px-6 text-center text-gray-400 text-sm">
-              <p>&copy; 2026 FarmerDirect Marketplace. All rights reserved.</p>
-            </footer>
+            <Footer />
           </div>
         </CartProvider>
       </AuthProvider>
