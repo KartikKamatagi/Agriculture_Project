@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import Login from './pages/Login';
 import Register from './pages/Register';
 import Home from './pages/Home';
+import Contact from './pages/Contact';
 import Cart from './pages/Cart';
 import FarmerDashboard from './pages/FarmerDashboard';
 import Footer from './components/Footer';
@@ -38,6 +39,7 @@ function App() {
                 <Route path="/" element={<Home />} />
                 <Route path="/login" element={<Login />} />
                 <Route path="/register" element={<Register />} />
+                <Route path="/contact" element={<Contact />} />
                 
                 <Route 
                   path="/farmer-dashboard" 
