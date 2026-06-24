@@ -61,6 +61,7 @@ const Contact = () => {
                       name="name"
                       value={formData.name}
                       onChange={handleChange}
+                      autoComplete="name"
                       required
                       className="mt-3 block w-full rounded-3xl border border-gray-200 bg-gray-50 px-5 py-4 text-gray-900 focus:border-green-500 focus:ring-4 focus:ring-green-100 outline-none transition"
                       placeholder="Your full name"
@@ -74,6 +75,7 @@ const Contact = () => {
                       type="email"
                       value={formData.email}
                       onChange={handleChange}
+                      autoComplete="email"
                       required
                       className="mt-3 block w-full rounded-3xl border border-gray-200 bg-gray-50 px-5 py-4 text-gray-900 focus:border-green-500 focus:ring-4 focus:ring-green-100 outline-none transition"
                       placeholder="you@example.com"
@@ -88,6 +90,7 @@ const Contact = () => {
                       onChange={handleChange}
                       required
                       rows="5"
+                      aria-label="Your message"
                       className="mt-3 block w-full rounded-3xl border border-gray-200 bg-gray-50 px-5 py-4 text-gray-900 focus:border-green-500 focus:ring-4 focus:ring-green-100 outline-none transition"
                       placeholder="Tell us how we can help"
                     />
