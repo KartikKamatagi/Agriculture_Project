@@ -1,3 +1,21 @@
+.root-vars {
+  /* Small global variables for quick theming */
+}
+
+:root {
+  --app-bg: #f7fafc;
+  --app-text: #0f172a;
+  --app-muted: #64748b;
+}
+
+body {
+  background-color: var(--app-bg);
+  color: var(--app-text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+}
+
 .counter {
   font-size: 16px;
   padding: 5px 10px;
