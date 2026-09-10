@@ -19,6 +19,7 @@ The project is built using a **Django backend** and a **React + Vite frontend**.
 ## 🏗️ Project Structure
 
 ```text
+
 Agriculture_Project/
 │
 ├── agriculture-frontend/       # React + Vite frontend
