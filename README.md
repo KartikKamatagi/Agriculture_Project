@@ -7,6 +7,7 @@ The project is built using a **Django backend** and a **React + Vite frontend**.
 ## 🚀 Features
 
 
+
 * 👨‍🌾 Farmer and customer-oriented marketplace
 * 🛒 Browse agricultural products
 * 📦 Product management
